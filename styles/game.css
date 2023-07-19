@@ -73,7 +73,15 @@
 }
 
 /* section-2_styles */
+.section-2{
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 .online-title{
     text-align: center;
+}
+.sec-2_imges{
+    display: flex;
+    gap: 15px;
 }
