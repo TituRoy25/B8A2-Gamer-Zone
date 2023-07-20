@@ -18,8 +18,18 @@
     gap: 20px;
 }
 .header-2 li{
+    font-size: 15px;
     list-style: none;
     color: #3C354F;
+}
+.nav{
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    gap: 10px;
+}
+.nav-img{
+    width: 25px;
+    height: 20px;
 }
 .img-logo{
     width: 60px;
@@ -33,9 +43,15 @@
     font-size: 40px;
 }
 
+/* mail-section */
+main{
+    background: #f4ebeb;
+}
+
 /* section-1_styles */
 
 .section-1{
+    margin-top: 60px;
     margin-left: 50px;
     margin-right: 50px;
     display: flex;
@@ -74,6 +90,7 @@
 
 /* section-2_styles */
 .section-2{
+    margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -84,4 +101,93 @@
 .sec-2_imges{
     display: flex;
     gap: 15px;
+}
+
+/* section-3_styles */
+
+.section-3{
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec-3_title{
+    margin-left: 150px;
+    margin-bottom: 150px;
+    text-align: right;
+    width: 20%;
+}
+.sec-3_images-1{
+    width: 550px;
+    height: 550px;
+}
+.sec-3_images-2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 250px;
+}
+
+/* section-4_styles */
+
+.section-4{
+    padding-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    gap: 10px;
+}
+.sec-9-pics{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    border: none;
+    gap: 5px;
+}
+.pics-9{
+    width: 20px;
+    height: 20px;
+}
+.sec-9-text{
+    font-size: 10px;
+}
+
+/* footer_styles */
+
+.footer{
+    padding-bottom: 50px;
+    background: #0B0223;
+}
+.foo-header-1, .foo-header-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.foo-header-1 .h4{
+    color: white;
+}
+.foo-header-2 ul, .foo-header-4 ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 35px;
+}
+.foo-header-2 li, .foo-header-4 li{
+    color: white;
+    list-style: none;
+}
+.foo-img{
+    width: 30px;
+    height: 30px;
+}
+.foo-header-5{
+    text-align: center;
+}
+.foo-text{
+    color: white;
+    font-size: 12px;
 }
