@@ -248,7 +248,9 @@ main{
         gap: 10px;
     }
     .footer{
+        align-items: center;
         flex-direction: column;
     }
 
 }
+
